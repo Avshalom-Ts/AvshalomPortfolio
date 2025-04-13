@@ -46,6 +46,7 @@ export function Room(props) {
     <group {...props} dispose={null}>
       <EffectComposer>
         <SelectiveBloom
+          lights={false} // Disable the bloom effect on lights
           selection={screensRef}
           intensity={1.5} // Strength of the bloom
           luminanceThreshold={0.2} // Minimum luminance needed
