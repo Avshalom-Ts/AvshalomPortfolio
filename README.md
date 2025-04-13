@@ -115,7 +115,13 @@ Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.
 
 ```bash
 npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-three/postprocessing
-npm install tailwindcss @tailwindcss/vite
+npm install tailwindcss @tailwindcss/vite react-responsive
 ```
 
 Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+
+Converting the 3d mashes objects to optimized react jsx file to render.
+
+```bash
+npx gltfjsx <Object-file>.glb
+```
