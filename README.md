@@ -42,11 +42,12 @@ The 3D Portfolio project is a highly engaging personal website that features ani
 
 - [Three.js](https://threejs.org/)
 - [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction).
-- [Drei]()
+- [Drei](https://www.npmjs.com/package/@react-three/drei)
 - [GSAP](https://gsap.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite](https://vite.dev/)
 - [React](https://react.dev/)
+- [React-countup](https://www.npmjs.com/package/react-countup).
 
 ## <a name="features">🔋 Features</a>
 
@@ -115,7 +116,7 @@ Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.
 
 ```bash
 npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-three/postprocessing
-npm install tailwindcss @tailwindcss/vite react-responsive
+npm install tailwindcss @tailwindcss/vite react-responsive react-countup
 ```
 
 Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
