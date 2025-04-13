@@ -116,7 +116,7 @@ Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.
 
 ```bash
 npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-three/postprocessing
-npm install tailwindcss @tailwindcss/vite react-responsive react-countup
+npm install tailwindcss @tailwindcss/vite react-responsive react-countup @emailjs/browser
 ```
 
 Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
