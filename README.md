@@ -123,6 +123,14 @@ Open [http://localhost:5173](http://localhost:5173/) in your browser to view the
 
 Converting the 3d mashes objects to optimized react jsx file to render.
 
+[Docs pmndrs/gltfjsx](https://github.com/pmndrs/gltfjsx)
+
 ```bash
 npx gltfjsx <Object-file>.glb
+```
+
+To reduce file size
+
+```bash
+npx gltfjsx <Object-file>.glb -T
 ```
