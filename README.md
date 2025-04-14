@@ -37,17 +37,17 @@ The 3D Portfolio project is a highly engaging personal website that features ani
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-
 - This project wa build with [Vite-Framework](https://vite.dev/) and [React](https://react.dev/).
 
 - [Three.js](https://threejs.org/)
-- [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction).
+- [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction)
 - [Drei](https://www.npmjs.com/package/@react-three/drei)
 - [GSAP](https://gsap.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite](https://vite.dev/)
 - [React](https://react.dev/)
-- [React-countup](https://www.npmjs.com/package/react-countup).
+- [React-countup](https://www.npmjs.com/package/react-countup)
+- [emailJS](https://www.emailjs.com/)
 
 ## <a name="features">🔋 Features</a>
 
@@ -66,6 +66,8 @@ The 3D Portfolio project is a highly engaging personal website that features ani
 👉 Multi-section layout (About, Projects, Contact)
 
 👉 Mobile optimized 3D experience
+
+👉 Reciev emails with EmailJS
 
 and many more, including code architecture and reusability.
 
