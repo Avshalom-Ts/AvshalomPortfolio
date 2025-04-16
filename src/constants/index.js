@@ -10,11 +10,11 @@ const navLinks = [
   {
     name: "Skills",
     link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  }
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -29,10 +29,16 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "+", label: "Years of Experience" },
+  // { value: 46, suffix: "+", label: "Satisfied Clients" },
+  { value: 76, suffix: "+", label: "GitHub Repositories" },
+  { value: 46, suffix: "+", label: "Completed Projects" },
+  { value: 2000, suffix: "+", label: "Hours of Coding" },
+  // { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 12, suffix: "+", label: "Technologies Learned" },
+  { value: 3, suffix: "+", label: "Group Projects" },
+  { value: 100, suffix: "%", label: "Coursework Completed" },
+  { value: 5, suffix: "+", label: "Collaborations" },
 ];
 
 const logoIconsList = [
