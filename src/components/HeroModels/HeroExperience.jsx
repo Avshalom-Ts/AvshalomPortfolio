@@ -15,9 +15,11 @@ const HeroExperience = () => {
         enablePan={false}
         enableZoom={!isTablet}
         maxDistance={20}
-        minDistance={5}
+        minDistance={10}
         minPolarAngle={Math.PI / 5}
         maxPolarAngle={Math.PI / 2}
+        minAzimuthAngle={-Math.PI / 5}
+        maxAzimuthAngle={Math.PI / 5}
         />
 
         <HeroLights/>
