@@ -21,7 +21,7 @@ const NavBar = () => {
     useEffect(() => {
     const animation = lottieWeb.loadAnimation({
       container: iconContainer.current,
-      path: '/images/logos/Github-white.json', // Make sure this path is correct
+      path: '/images/logos/Github.json',
       renderer: 'svg',
       loop: true,
       autoplay: true,
