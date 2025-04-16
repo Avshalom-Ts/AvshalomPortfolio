@@ -49,13 +49,16 @@ const ShowcaseSection = () => {
             {/* LEFT */}
             <div className='first-project-wrapper' ref={project1Ref}>
                 <div className='image-wrapper'>
-                    <img src='/images/project1.png' alt='Ryde'/>
+                    <img src='/images/anydashy-app.png' alt='Ryde'/>
                 </div>
                 <div className='text-content'>
-                    <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                    <h2>A customizable personal dashboard meets social media.</h2>
                     <p className='text-white-50 md:text-xl'>
-                        An app build with React Native, Expo and TailwindCSS for a fast user-friendly experience.
+                        This app is a user-centric dashboard platform designed for both self-management and social interaction. Once signed in, 
+                        users can personalize their experience by installing modular add-ons — small feature packs that extend the dashboard’s functionality. 
+                        Whether it’s productivity tools, social features, or interactive widgets, users can build the dashboard that suits their unique needs.
                     </p>
+                    <strong>Built with modern web technologies including Angular, NestJS, and PostgreSQL.</strong>
                 </div>
             </div>
             {/* RIGHT */}
