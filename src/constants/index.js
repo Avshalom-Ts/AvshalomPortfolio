@@ -43,37 +43,37 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/logos/adobe.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/logos/docker.png",
+  },
+  // {
+  //   imgPath: "/logos/git.svg",
+  // },
+  {
+    imgPath: "/logos/hostinger.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/logos/microsoft.png",
   },
+  // {
+  //   imgPath: "/logos/node.png",
+  // },
+  // {
+  //   imgPath: "/logos/python.png",
+  // },
+  // {
+  //   imgPath: "/logos/react.png",
+  // },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/logos/shopify.png",
   },
+  // {
+  //   imgPath: "/logos/three.png",
+  // },
   {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/logos/versel.png",
   },
 ];
 
