@@ -4,7 +4,7 @@ networks:
     driver: bridge
 
 services:
-  # Define the Next.js application service
+  # Define the Vite.js application
   portfolio-app:
     hostname: az-portfolio
     # depends_on:
@@ -17,14 +17,15 @@ services:
       dockerfile: Dockerfile
       args:
         NODE_ENV: production
-    restart: always
+    restart: unless-stopped
     ports:
       - "4173:4173"
-  database:
+  # Define the MongoDB service
+  mongo-db:
     hostname: portfolio-mongo-db
     container_name: portfolio-mongo-db
     image: mongo
-    restart: always
+    restart: unless-stopped
     environment:
       MONGO_INITDB_ROOT_USERNAME: mongo
       MONGO_INITDB_ROOT_PASSWORD: example
@@ -36,6 +37,13 @@ services:
       # Add the db-init.js file to the Mongo DB container
       - ./db-init.js:/docker-entrypoint-initdb.d/init.js:ro
     ports:
-      - "27017:27017"
+      - "4174:27017"
+  clips-app:
+    hostname: az-portfolio-clips
+    container_name: az-portfolio-clips
+    image: avshalomts/clips:latest
+    restart: unless-stopped
+    ports:
+      - "4175:4200"
 # docker-compose build --no-cache
 # docker-compose up -d --build
