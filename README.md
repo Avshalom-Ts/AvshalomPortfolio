@@ -136,3 +136,13 @@ To reduce file size
 ```bash
 npx gltfjsx <Object-file>.glb -T
 ```
+
+## Options to showcase my works
+
+1. [GenImageAppAi](https://github.com/Avshalom-Ts/GenImageAppAI)
+
+2. [Clips](https://github.com/Avshalom-Ts/clips)
+
+3. [YelpCampProject](https://github.com/Avshalom-Ts/NewYelpCampProject)
+
+4. [ThreadApp](https://github.com/Avshalom-Ts/threads-app)
