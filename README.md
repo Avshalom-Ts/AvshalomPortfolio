@@ -1,10 +1,10 @@
 # Avshalom Portfolio
 
-- This is my portfolio page to show my knolig and projects that i build.
+- This is my portfolio page to show my knowledge and projects that i build.
 
 ## ⚠️ Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+- This project made with [JavaScript Mastery Tutorial](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=12593s&ab_channel=JavaScriptMastery)
 
 <div align="center">
   <br />
@@ -146,3 +146,45 @@ npx gltfjsx <Object-file>.glb -T
 3. [YelpCampProject](https://github.com/Avshalom-Ts/NewYelpCampProject)
 
 4. [ThreadApp](https://github.com/Avshalom-Ts/threads-app)
+
+## List of knowlige
+
+- C#
+
+- Angular
+
+- NestJs
+
+- TypeScript
+
+- JavaScript
+
+- HTML
+
+- CSS
+
+- AWS
+
+- Azure
+
+- Python
+
+- ThreeJs
+
+- React
+
+- Linux
+
+- Windows
+
+- Git
+
+- GitHub
+
+- express.js
+
+- proxmox
+
+- docker
+
+- kubernetes

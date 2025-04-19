@@ -43,7 +43,6 @@ const TechStack = () => {
                             <div className='tech-icon-wrapper'>
                                 <TechIcon model={icon} />
                             </div>
-
                             <div className='padding-x w-full'>
                                 <p>{icon.name}</p>
                             </div>
