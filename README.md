@@ -2,9 +2,9 @@
 
 - This is my portfolio page to show my knowledge and projects that i build.
 
-## ⚠️ Tutorial
+## Tutorial
 
-- This project made with [JavaScript Mastery Tutorial](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=12593s&ab_channel=JavaScriptMastery)
+- This project made with [JavaScript Mastery Tutorial](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=12593s&ab_channel=JavaScriptMastery) and adjusts to my need.
 
 <div align="center">
   <br />

@@ -156,10 +156,28 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 4, 0],
   },
   {
+    name: "GitHub",
+    modelPath: "/models/github-logo.glb",
+    scale: 6,
+    rotation: [0, 0, 0],
+  },
+  {
     name: "Docker",
     modelPath: "/models/docker-logo.glb",
     scale: 1.5,
     rotation: [0, 0, 0],
+  },
+  {
+    name: "Linux",
+    modelPath: "/models/linux-logo.glb",
+    scale: 0.06,
+    rotation: [0,0, 0],
+  },
+  {
+    name: "Arch Linux",
+    modelPath: "/models/arch-logo.glb",
+    scale: 1,
+    rotation: [0,0, 0],
   },
 ];
 
