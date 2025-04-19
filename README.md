@@ -188,3 +188,7 @@ npx gltfjsx <Object-file>.glb -T
 - docker
 
 - kubernetes
+
+- vite
+
+- Nx

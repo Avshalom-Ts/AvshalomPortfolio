@@ -128,7 +128,7 @@ const techStackIcons = [
   {
     name: "Angular",
     modelPath: "/models/angular-logo.glb",
-    scale: 6,
+    scale: 6.5,
     rotation: [0, 0, 0],
   },
   {
@@ -138,10 +138,28 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
+    name: "HTML-5",
+    modelPath: "/models/html-5-logo.glb",
+    scale: 4,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "CSS",
+    modelPath: "/models/css-logo.glb",
+    scale: 4,
+    rotation: [0, 0, 0],
+  },
+  {
     name: "JavaScript",
     modelPath: "/models/node-transformed.glb",
     scale: 6,
     rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "C#",
+    modelPath: "/models/c-sharp-logo.glb",
+    scale: 0.09,
+    rotation: [0,0, 0],
   },
   {
     name: "ThreeJs",
@@ -179,6 +197,18 @@ const techStackIcons = [
     scale: 1,
     rotation: [0,0, 0],
   },
+  {
+    name: "AWS",
+    modelPath: "/models/aws-logo.glb",
+    scale: 0.5,
+    rotation: [0,0, 0],
+  },
+  // {
+  //   name: "Microsoft",
+  //   modelPath: "/models/microsoft-logo.glb",
+  //   scale: 5,
+  //   rotation: [0,0, 0],
+  // }
 ];
 
 const expCards = [
