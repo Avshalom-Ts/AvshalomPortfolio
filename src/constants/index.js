@@ -21,11 +21,7 @@ const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Code", imgPath: "/images/code.svg" }
 ];
 
 const counterItems = [
@@ -46,34 +42,28 @@ const logoIconsList = [
     imgPath: "/logos/adobe.png",
   },
   {
-    imgPath: "/logos/docker.png",
-  },
-  // {
-  //   imgPath: "/logos/git.svg",
-  // },
-  {
     imgPath: "/logos/hostinger.png",
   },
   {
     imgPath: "/logos/microsoft.png",
   },
-  // {
-  //   imgPath: "/logos/node.png",
-  // },
-  // {
-  //   imgPath: "/logos/python.png",
-  // },
-  // {
-  //   imgPath: "/logos/react.png",
-  // },
   {
     imgPath: "/logos/shopify.png",
   },
-  // {
-  //   imgPath: "/logos/three.png",
-  // },
   {
     imgPath: "/logos/versel.png",
+  },
+  {
+    imgPath: "/logos/nx-workspace.png",
+  },
+  {
+    imgPath: "/logos/vite.png",
+  },
+  {
+    imgPath: "/logos/kubernetes.png",
+  },
+  {
+    imgPath: "/logos/proxmox.png",
   },
 ];
 
