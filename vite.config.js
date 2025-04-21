@@ -6,11 +6,13 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   preview:{
     host: '0.0.0.0',
-    allowedHosts: ['avshalom-folio.com'],
+    // allowedHosts: ['avshalom-folio.com'],
+    allowedHosts: 'all',
   },
   server: {
     host: '0.0.0.0',
     allowedHosts: ['avshalom-folio.com'],
+    https: true
   },
   plugins: [
     react(),
