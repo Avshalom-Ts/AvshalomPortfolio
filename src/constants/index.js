@@ -344,20 +344,23 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
+    name: "instagram",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/avshalomzarviv/"
   },
   {
-    name: "fb",
+    name: "facebook",
     imgPath: "/images/fb.png",
+    url: "https://www.facebook.com/AvshalomZarviv/"
   },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
+  // {
+  //   name: "twiter",
+  //   imgPath: "/images/x.png",
+  // },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/avshalom-zarviv-49a851285/"
   },
 ];
 
