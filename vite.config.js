@@ -5,10 +5,12 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   preview:{
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+    allowedHosts: ['avshalom-folio.com'],
   },
   server: {
-    host: 'avshalom-folio.com'
+    host: '0.0.0.0',
+    allowedHosts: ['avshalom-folio.com'],
   },
   plugins: [
     react(),
