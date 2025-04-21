@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
+import TitleHeader from '../components/TitleHeader'
 
 
 gsap.registerPlugin(ScrollTrigger)
@@ -44,7 +45,13 @@ const ShowcaseSection = () => {
 
   return (
     <section id='works' ref={sectionRef} className='app-showcase'>
-        <div className='w-full'>
+
+        <div className='w-full h-full md:px-10 px-5 mt-2'>
+        <TitleHeader
+            title='My Works'
+            sub='🎇 Apps That I Build'
+            />
+            
             <div className='showcaselayout'>
             {/* LEFT */}
             <div className='first-project-wrapper' ref={project1Ref}>
@@ -73,7 +80,7 @@ const ShowcaseSection = () => {
                     <div className='image-wrapper bg-[#ffe7db]'>
                         <img src='/images/project3.png' alt='YC Directory'/>
                     </div>
-                    <h2>YC Directory - A Startup Showcase App</h2>
+                    <h2>Admin-dashboard as CNC factory managment to adndle worker, customers, products and more, Build with Angular, NestJs,PostgreSQL and TailwindCSS</h2>
                 </div>
             </div>
             </div>

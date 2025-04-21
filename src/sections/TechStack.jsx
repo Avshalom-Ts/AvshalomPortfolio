@@ -29,7 +29,7 @@ const TechStack = () => {
 
   return (
     <div id='skills' className='flex-center section-padding'>
-        <div className='w-full h-full md:px-10 px-5'>
+        <div className='w-full h-full md:px-10 px-5 mt-24'>
             <TitleHeader
             title='My Tech Stack'
             sub='🤝 The Skills I Bring to the Table'
