@@ -19,10 +19,10 @@ const TechStack = () => {
             duration:1,
             ease: 'power3.inOut',
             stagger:0.2,
-             scrollTrigger:{
+            scrollTrigger:{
                 trigger: '#skills',
                 start: 'top center',
-             }
+            },
             }
     )
     })
@@ -31,8 +31,8 @@ const TechStack = () => {
     <div id='skills' className='flex-center section-padding'>
         <div className='w-full h-full md:px-10 px-5'>
             <TitleHeader
-            title='My Preferred Tech Stack'
-            sub='🤝 The Skills Bring to the Table'
+            title='My Tech Stack'
+            sub='🤝 The Skills I Bring to the Table'
             />
         
             <div className='tech-grid'>

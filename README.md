@@ -167,7 +167,11 @@ npx gltfjsx <Object-file>.glb -T
 
 - Azure
 
+- CloudFlare
+
 - Python
+
+- NextJs
 
 - ThreeJs
 
@@ -175,7 +179,7 @@ npx gltfjsx <Object-file>.glb -T
 
 - Linux
 
-- Windows
+- Microsoft
 
 - Git
 
@@ -192,3 +196,19 @@ npx gltfjsx <Object-file>.glb -T
 - vite
 
 - Nx
+
+- Vs Code
+
+- Visual Studio
+
+- MongoDb
+
+- Postgresql
+
+- MySql
+
+- MariaDb
+
+- TainwindCss
+
+- shadCn

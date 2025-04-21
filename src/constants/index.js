@@ -42,6 +42,9 @@ const logoIconsList = [
     imgPath: "/logos/adobe.png",
   },
   {
+    imgPath: "/logos/figma.png",
+  },
+  {
     imgPath: "/logos/hostinger.png",
   },
   {
@@ -64,6 +67,45 @@ const logoIconsList = [
   },
   {
     imgPath: "/logos/proxmox.png",
+  },
+  {
+    imgPath: "/logos/expressjs.png",
+  },
+  {
+    imgPath: "/logos/nestjs.png",
+  },
+  {
+    imgPath: "/logos/typescript.png",
+  },
+  {
+    imgPath: "/logos/azure.png",
+  },
+  {
+    imgPath: "/logos/nextjs.png",
+  },
+  {
+    imgPath: "/logos/vscode.png",
+  },
+  {
+    imgPath: "/logos/visual-studio.png",
+  },
+  {
+    imgPath: "/logos/mongodb.png",
+  },
+  {
+    imgPath: "/logos/postgresql.png",
+  },
+  {
+    imgPath: "/logos/mysql.png",
+  },
+  {
+    imgPath: "/logos/mariadb.png",
+  },
+  {
+    imgPath: "/logos/tailwindcss.png",
+  },
+  {
+    imgPath: "/logos/shadcn.png",
   },
 ];
 
