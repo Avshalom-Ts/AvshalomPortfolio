@@ -420,6 +420,11 @@ section {
     left: -100%;
   }
 }
+
+.marquee-box:hover {
+  animation-play-state: paused;
+}
+
 /* marquee end */
 
 .card {
