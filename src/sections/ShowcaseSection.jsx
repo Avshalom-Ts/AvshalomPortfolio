@@ -52,7 +52,7 @@ const ShowcaseSection = () => {
                     <img src='/images/anydashy-app.png' alt='Ryde'/>
                 </div>
                 <div className='text-content'>
-                    <h2>A customizable personal dashboard meets social media.</h2>
+                    <h2>A customizable personal dashboard meets social media</h2>
                     <p className='text-white-50 md:text-xl'>
                         This app is a user-centric dashboard platform designed for both self-management and social interaction. Once signed in, 
                         users can personalize their experience by installing modular add-ons — small feature packs that extend the dashboard’s functionality. 
@@ -67,7 +67,7 @@ const ShowcaseSection = () => {
                     <div className='image-wrapper bg-[#ffefdb]'>
                         <img src='/images/project2.png' alt='Library Managment Platform'/>
                     </div>
-                    <h2>Library Managment Platform</h2>
+                    <h2>Multi-Vendor E-Commerce Platform with Next.js, React & Stripe Connect</h2>
                 </div>
                 <div className='project' ref={project3Ref}>
                     <div className='image-wrapper bg-[#ffe7db]'>
