@@ -68,7 +68,7 @@ const ShowcaseSection = () => {
                     <strong>Built with modern web technologies including Angular, NestJS, and PostgreSQL. 
                     </strong>
                 </div>
-                <a href="https://anydashy.com" target='_blank' className='underline-offset-1 text-blue-400'>anydashy.com</a>
+                <a href="https://anydashy.com" target='_blank' className='underline-offset-1 text-blue-400'>View site</a>
             </div>
             {/* RIGHT */}
             <div className='project-list-wrapper overflow-hidden'>
