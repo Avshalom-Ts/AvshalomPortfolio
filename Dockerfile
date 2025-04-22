@@ -31,6 +31,8 @@ WORKDIR /app
 ARG NODE_ENV
 ENV NODE_ENV=${NODE_ENV}
 
+RUN npm install -g serve
+
 # Only copy necessary files
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/dist ./dist
@@ -39,4 +41,4 @@ COPY --from=builder /app/package.json ./package.json
 
 EXPOSE 4173
 
-CMD ["npm","run", "preview"]
+CMD ["serve", "-s", "dist", "-l", "4173"]
