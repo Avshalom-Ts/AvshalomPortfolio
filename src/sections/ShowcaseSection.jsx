@@ -65,8 +65,10 @@ const ShowcaseSection = () => {
                         users can personalize their experience by installing modular add-ons — small feature packs that extend the dashboard’s functionality. 
                         Whether it’s productivity tools, social features, or interactive widgets, users can build the dashboard that suits their unique needs.
                     </p>
-                    <strong>Built with modern web technologies including Angular, NestJS, and PostgreSQL.</strong>
+                    <strong>Built with modern web technologies including Angular, NestJS, and PostgreSQL. 
+                    </strong>
                 </div>
+                <a href="https://anydashy.com" target='_blank' className='underline-offset-1 text-blue-400'>anydashy.com</a>
             </div>
             {/* RIGHT */}
             <div className='project-list-wrapper overflow-hidden'>
@@ -75,12 +77,14 @@ const ShowcaseSection = () => {
                         <img src='/images/project2.png' alt='Library Managment Platform'/>
                     </div>
                     <h2>Multi-Vendor E-Commerce Platform with Next.js, React & Stripe Connect</h2>
+                    <a href="https://multi-tenant.avshalom-folio.com" target='_blank' className='underline-offset-1 text-blue-400'>View site</a>
                 </div>
                 <div className='project' ref={project3Ref}>
                     <div className='image-wrapper bg-[#ffe7db]'>
                         <img src='/images/project3.png' alt='YC Directory'/>
                     </div>
                     <h2>Admin-dashboard as CNC factory managment to adndle worker, customers, products and more, Build with Angular, NestJs,PostgreSQL and TailwindCSS</h2>
+                    <a href="https://reportable.avshalom-folio.com" target='_blank' className='underline-offset-1 text-blue-400'>View site</a>
                 </div>
             </div>
             </div>

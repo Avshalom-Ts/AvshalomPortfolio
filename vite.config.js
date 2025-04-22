@@ -9,11 +9,6 @@ export default defineConfig({
     // allowedHosts: ['avshalom-folio.com'],
     allowedHosts: 'all',
   },
-  server: {
-    host: '0.0.0.0',
-    allowedHosts: ['avshalom-folio.com'],
-    https: true
-  },
   plugins: [
     react(),
     tailwindcss()
