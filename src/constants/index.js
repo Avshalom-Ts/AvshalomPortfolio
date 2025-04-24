@@ -163,12 +163,12 @@ const techStackIcons = [
     scale: 6.5,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.9,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Python",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.9,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "HTML-5",
     modelPath: "/models/html-5-logo.glb",
@@ -205,12 +205,12 @@ const techStackIcons = [
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
-  {
-    name: "GitHub",
-    modelPath: "/models/github-logo.glb",
-    scale: 6,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "GitHub",
+  //   modelPath: "/models/github-logo.glb",
+  //   scale: 6,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "Docker",
     modelPath: "/models/docker-logo.glb",
@@ -223,18 +223,18 @@ const techStackIcons = [
     scale: 0.06,
     rotation: [0,0, 0],
   },
-  {
-    name: "Arch Linux",
-    modelPath: "/models/arch-logo.glb",
-    scale: 1,
-    rotation: [0,0, 0],
-  },
-  {
-    name: "AWS",
-    modelPath: "/models/aws-logo.glb",
-    scale: 0.5,
-    rotation: [0,0, 0],
-  },
+  // {
+  //   name: "Arch Linux",
+  //   modelPath: "/models/arch-logo.glb",
+  //   scale: 1,
+  //   rotation: [0,0, 0],
+  // },
+  // {
+  //   name: "AWS",
+  //   modelPath: "/models/aws-logo.glb",
+  //   scale: 0.5,
+  //   rotation: [0,0, 0],
+  // },
   // {
   //   name: "Microsoft",
   //   modelPath: "/models/microsoft-logo.glb",
