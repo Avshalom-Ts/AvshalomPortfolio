@@ -163,12 +163,12 @@ const techStackIcons = [
     scale: 6.5,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.9,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Python",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.9,
+  //   rotation: [0, 0, 0],
+  // },
   // {
   //   name: "HTML-5",
   //   modelPath: "/models/html-5-logo.glb",
